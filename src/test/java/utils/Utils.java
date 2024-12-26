@@ -29,4 +29,11 @@ public class Utils {
 
         return new User(userName, firstName, lastName);
     }
+
+    public static void main(String[] args) {
+        Utils generator = new Utils();
+        User user = generator.generateUser();
+
+        System.out.println(user);
+    }
 }
